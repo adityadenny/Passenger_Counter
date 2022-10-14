@@ -52,9 +52,7 @@ incrementLap()
  * change the count-el in the HTML to reflect the new count
  */
 
-
 let countEl = document.getElementById("count99")
-console.log(countEl)
 
 let count = 0 
 
@@ -63,3 +61,8 @@ function increment() {
     countEl.innerText = count
 }
 
+function save() {
+    console.log(count)
+}
+
+save()
