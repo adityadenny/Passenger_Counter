@@ -53,12 +53,13 @@ incrementLap()
  */
 
 
-let countEl = document.getElementById("count-el")
+let countEl = document.getElementById("count99")
 console.log(countEl)
 
 let count = 0 
+
 function increment() {
-    console.log("clicked")
     count = count + 1
-    console.log(count)
+    countEl.innerText = count
 }
+
