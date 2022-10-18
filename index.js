@@ -16,7 +16,7 @@ function increment() {
 
 function myLogger() {
     console.log(42)
-}
+} //just for commit
 
 let lap1 = 34
 let lap2 = 33
