@@ -1,8 +1,4 @@
-let username = "per"
-
-let message = "You have tree new notifications"
-
-let messageToUser = message +", "+ username + "!"
-
-console.log(messageToUser)
-
+let name = "Per Herald Borgen";
+let greetings = "Hi, my name is";
+let mygreetings = greetings + " " + name;
+console.log(mygreetings)
